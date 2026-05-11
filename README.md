@@ -23,22 +23,10 @@ git clone https://github.com/osdan/PyCamIP.git
 cd PyCamIP
 ```
 
-2. Install dependencies:
+2. Run the app:
 
 ```bash
-pip install -r requirements.txt
-```
-
-3. Create `.env` file:
-
-```
-CAMERA_URL=rtsp://user:password@ip:port/stream
-```
-
-4. Run the app:
-
-```bash
-python src/camera_stream.py
+python PyCamIP.py
 ```
 
 ## ⌨️ Controls
